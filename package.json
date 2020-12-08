@@ -1,0 +1,38 @@
+{
+  "name": "core4-edu-api-group2",
+  "version": "1.0.0",
+  "description": "RESTful API for EDU Q & A application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outboxafrica/CoRe4-EDU-API-Group2.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "CoRe4-Group2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/outboxafrica/CoRe4-EDU-API-Group2/issues"
+  },
+  "homepage": "https://github.com/outboxafrica/CoRe4-EDU-API-Group2#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.18",
+    "mongoose-autopopulate": "^0.12.3",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
