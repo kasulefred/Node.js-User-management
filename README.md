@@ -1,4 +1,4 @@
-## EDU_API
+## User management API
 ## What does this PR do?
     A user can create an account.
     A user can login an account.
